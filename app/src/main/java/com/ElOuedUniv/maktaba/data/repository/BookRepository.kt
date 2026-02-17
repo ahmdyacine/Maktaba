@@ -22,12 +22,19 @@ class BookRepository {
      *     nbPages = 464
      * )
      */
+    //adding the missing informatuion for each book
     private val booksList = listOf(
-        Book(isbn = "", title = "Clean Code", nbPages = 0),
-        Book(isbn = "", title = "The Pragmatic Programmer", nbPages = 0),
-        Book(isbn = "", title = "Design Patterns", nbPages = 0),
-        Book(isbn = "", title = "Refactoring", nbPages = 0),
-        Book(isbn = "", title = "Head First Design Patterns", nbPages = 0)
+        Book(isbn = "9780132350884", title = "Clean Code", nbPages = 464),
+        Book(isbn = "9780201616224", title = "The Pragmatic Programmer: From Journeyman to Master", nbPages = 321),
+        Book(isbn = "9780201633610", title = "Design Patterns", nbPages = 416),
+        Book(isbn = "9780201485677", title = "Refactoring: Improving the Design of Existing Code", nbPages = 431),
+        Book(isbn = "9780596007126", title = "Head First Design Patterns", nbPages = 638),
+        //adding new books
+        Book(isbn = "9780262032933", title = "Introduction to Algorithms", nbPages = 1184),
+        Book(isbn = "9780201657883", title = "Programming Pearls", nbPages = 239),
+        Book(isbn = "9780131103627", title = "The C Programming Language", nbPages = 272),
+        Book(isbn = "9780201558029", title = "Concrete Mathematics: A Foundation for Computer Science", nbPages = 672),
+        Book(isbn = "9781105979125", title = "Operating Systems: Three Easy Pieces", nbPages = 686)
     )
 
     /**
